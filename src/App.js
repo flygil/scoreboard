@@ -51,8 +51,6 @@ class App extends React.Component {
         {id: maxId + 1, name/*name: name key와 value가같으면 name만 써도된다*/, score: 0}
       ]
     })
-    // 폼 초기화
-    this.setState({playerName:""})
   }
   render() {
     return (

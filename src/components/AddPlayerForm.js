@@ -16,6 +16,8 @@ handleValueChange = (e) =>{
 handleSubmit = (e) => {
     e.preventDefault();  // submit의 기본동작차단
     this.props.addPlayer(this.state.playerName);
+  // 폼 초기화
+  this.setState({playerName:""})
 }
 
   render() {
